@@ -1,12 +1,11 @@
-import { useState } from 'react'
+import Login from './components/pages/Login'
 import Register from './components/pages/Register'
 import './styles.scss'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <Register />
+    // <Register />
+    <Login />
   )
 }
 
